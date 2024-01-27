@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import {serifFont} from "@/app/fonts";
 import NavItems from "@/app/Navbar/NavItems";
+import {Buttons} from "@/components/Button";
 
 function Logo() {
     return (
@@ -22,14 +23,26 @@ function Logo() {
 }
 
 
+function Action({}) {
+    return (
+        <div>
+            <Buttons
+                property1={"variant-4"}
+                className={"!w-[140px]"}
+                divClassName={"!mt-[-6.00px] !text-xl !mb-[-4.00px]"}
+                text={"Enquire Now"}/>
+        </div>
+    );
+}
 
 function Navbar({}) {
     return (
         <header className={"fixed top-0 z-10 bg-blue-500  w-full p-4 flex justify-center"}>
-            <nav className={"flex flex-row items-center justify-between md:w-1/5"}>
+            <nav className={"flex flex-row items-center justify-between md:w-2/3"}>
                 {/*Nav Section*/}
                 <Logo />
                 <NavItems />
+                <Action/>
             </nav>
         </header>
     );
