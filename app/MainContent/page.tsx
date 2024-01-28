@@ -5,6 +5,7 @@ import React from "react";
 import HeroSection from "@/app/MainContent/HeroSection";
 import Carousel from "@/app/MainContent/Carousel";
 import AboutSection from "@/app/MainContent/AboutSection";
+import ServicesSection from "@/app/MainContent/ServicesSection";
 
 
 
@@ -17,9 +18,7 @@ function MainContent() {
                 <HeroSection/>
                 <Carousel />
                 <AboutSection />
-                <section className={''}>
-                    Our solutions
-                </section>
+                <ServicesSection />
                 <section className={''}>
                     Customer Testimonials
                 </section>

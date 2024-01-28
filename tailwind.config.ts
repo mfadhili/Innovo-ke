@@ -73,7 +73,11 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        "hero-image" : "url('/images/pexels-oleksandr-p-1004366.jpg')"
+        "hero-image" : "url('/images/pexels-oleksandr-p-1004366.jpg')",
+        "card-image1" : "url('/images/pexels-mart-production-7550298.jpg')",
+        "card-image2" : "url('/images/pexels-cottonbro-studio-5483064.jpg')",
+        "card-image3" : "url('/images/pexels-sergei-starostin-6466141.jpg')",
+
       }
     },
   },
