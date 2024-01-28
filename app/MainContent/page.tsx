@@ -4,6 +4,7 @@ import {Buttons} from "@/components/Button";
 import React from "react";
 import HeroSection from "@/app/MainContent/HeroSection";
 import Carousel from "@/app/MainContent/Carousel";
+import AboutSection from "@/app/MainContent/AboutSection";
 
 
 
@@ -15,9 +16,7 @@ function MainContent() {
                 {/*Sections*/}
                 <HeroSection/>
                 <Carousel />
-                <section className={''}>
-                    About Us
-                </section>
+                <AboutSection />
                 <section className={''}>
                     Our solutions
                 </section>
