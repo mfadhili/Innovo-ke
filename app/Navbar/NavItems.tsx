@@ -46,7 +46,7 @@ const NavLinks:{
 
 function NavItems() {
     return (
-        <NavigationMenu.Root className={"w-2/3"}>
+        <NavigationMenu.Root className={"w-1/2"}>
             <NavigationMenu.List className={"flex flex-row list-none"}>
                 <div className={"flex flex-row justify-evenly w-full "}>
                     {NavLinks.map((NavLink) => (

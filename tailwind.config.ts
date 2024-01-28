@@ -72,6 +72,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        "hero-image" : "url('/images/pexels-oleksandr-p-1004366.jpg')"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

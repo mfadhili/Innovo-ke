@@ -14,7 +14,7 @@ function Logo() {
                 width={40}
                 height={40}
             />
-            <div className={`${serifFont.className} font-normal text-white text-2xl tracking-normal leading-normal`}>
+            <div className={`${serifFont.className} font-normal text-white text-[22px] tracking-normal leading-normal`}>
                 Innovo <br />
                 Networks
             </div>
@@ -37,7 +37,7 @@ function Action({}) {
 
 function Navbar({}) {
     return (
-        <header className={"fixed top-0 z-10 bg-blue-500  w-full p-4 flex justify-center"}>
+        <header className={"fixed top-0 z-10   w-full p-4 flex justify-center"}>
             <nav className={"flex flex-row items-center justify-between md:w-2/3"}>
                 {/*Nav Section*/}
                 <Logo />
