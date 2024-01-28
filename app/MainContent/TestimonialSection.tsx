@@ -7,9 +7,15 @@ function TestimonialSection({}) {
             <div className="flex w-full">
                 <div className="w-full flex flex-row">
                     <div className="bg-testimonials-image h-[547px] w-[576px] bg-cover bg-[50%_50%]">
-                        Image
+                        <div className="flex items-center w-[297px] h-[49px] gap-[10px] pl-[29px] py-[8px] bg-[#c8dcfb]  ">
+                            <div className="w-fit text-lg opacity-40 text-black font-medium tracking-normal leading-normal ">
+                                CUSTOMER TESTIMONIALS
+                            </div>
+                        </div>
                     </div>
-                    <div className="">text</div>
+                    <div className="">
+
+                    </div>
                 </div>
             </div>
         </section>
