@@ -6,6 +6,7 @@ import HeroSection from "@/app/MainContent/HeroSection";
 import Carousel from "@/app/MainContent/Carousel";
 import AboutSection from "@/app/MainContent/AboutSection";
 import ServicesSection from "@/app/MainContent/ServicesSection";
+import TestimonialSection from "@/app/MainContent/TestimonialSection";
 
 
 
@@ -19,9 +20,7 @@ function MainContent() {
                 <Carousel />
                 <AboutSection />
                 <ServicesSection />
-                <section className={''}>
-                    Customer Testimonials
-                </section>
+                <TestimonialSection />
                 <section className={''}>
                     Contact us
                 </section>

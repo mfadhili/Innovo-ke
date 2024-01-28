@@ -2,9 +2,9 @@ import React from 'react';
 
 function TestimonialSection({}) {
     return (
-        <div>
-
-        </div>
+        <section className={'h-[547px] bg-[#23262962]'}>
+            Customer Testimonials
+        </section>
     );
 }
 

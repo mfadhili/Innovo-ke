@@ -31,9 +31,9 @@ function ServicesCard({text, background}:ServicesCardProps) {
                     {text}
                 </div>
                 <div className="inline-flex items-center relative flex-[0_0_auto] mt-[-33.27px] mb-[-33.27px] mr-[-10.00px]">
-                    <div className="w-[12px] bg-[#403c3c] relative h-[74px]" />
-                    <div className="w-[12px] bg-[#392b2b] relative h-[74px]" />
-                    <div className="w-[18px] bg-white relative h-[74px]" />
+                    <div className="w-[12px] bg-[#403c3c] relative h-[69px]" />
+                    <div className="w-[12px] bg-[#392b2b] relative h-[69px]" />
+                    <div className="w-[18px] bg-white relative h-[69px]" />
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@ function ServicesSection({}) {
     return (
         <section className={'flex w-full justify-center bg-white'}>
             {/*Our solutions*/}
-            <div className="w-3/4 flex flex-col pt-10 items-center gap-8">
+            <div className="w-3/4 flex flex-col pt-10 items-center gap-8 pb-20">
                 {/*Services*/}
                 <p className={`font-normal text-4xl ${serifFont.className}`}>
                     <span className="text-[#093c88] ">Explore our </span>
