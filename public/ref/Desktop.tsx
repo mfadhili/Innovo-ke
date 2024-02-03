@@ -221,7 +221,7 @@ export const Desktop = (): JSX.Element => {
                         <div className="absolute top-[213px] left-[775px] [font-family:'DM_Serif_Text',Helvetica] font-normal text-white text-[36px] tracking-[0] leading-[normal]">
                             Contact Us
                         </div>
-                        <div className="inline-flex flex-col items-start gap-[10px] absolute top-[201px] left-[1078px]">
+                        <div className="inContact contentContact contentline-flex flex-col items-start gap-[10px] absolute top-[201px] left-[1078px]">
                             <div className="relative w-fit mt-[-1.00px] [font-family:'Inter',Helvetica] font-medium text-white text-[14px] tracking-[0] leading-[normal]">
                                 +254 727 501 860
                             </div>

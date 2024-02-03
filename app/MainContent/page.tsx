@@ -7,6 +7,9 @@ import Carousel from "@/app/MainContent/Carousel";
 import AboutSection from "@/app/MainContent/AboutSection";
 import ServicesSection from "@/app/MainContent/ServicesSection";
 import TestimonialSection from "@/app/MainContent/TestimonialSection";
+import {Contact} from "lucide-react";
+import ContactSection from "@/app/MainContent/ContactSection";
+import Footer from "@/app/MainContent/Footer";
 
 
 
@@ -21,13 +24,8 @@ function MainContent() {
                 <AboutSection />
                 <ServicesSection />
                 <TestimonialSection />
-                <section className={''}>
-                    Contact us
-                </section>
-                <footer className={''}>
-                    Footerz
-                </footer>
-
+                <ContactSection />
+                <Footer />
             </div>
         </div>
     );
